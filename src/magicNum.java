@@ -9,24 +9,26 @@ public class magicNum {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number:");
         int N =  sc.nextInt();
+         int sum = 0;
+            int count = 0;
         sc.close();
-        int sum = 0;
-        int count = 0;
-
         for(int i = 1; i< N; i++){
-
-            while(i > 0){
-                if ((i & 1) == 1) {
+             int num = i;
+            while(num > 0){
+               
+                if ((num & 1) == 1) {
                     sum += 1;
                 } else {
                     sum += 2;
                 }
-                i = i>>1;
+                num = num>>1;
             }
-            if(sum %2 != 0) count++;
-        }
+            if(sum %2 != 0) {
+                count++;
+            }
 
-        System.out.println(count);
+        
     }
-
+    System.out.println("The count is:"+ count);
+}
 }
