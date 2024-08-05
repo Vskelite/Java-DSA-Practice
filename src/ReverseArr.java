@@ -5,7 +5,7 @@ public class ReverseArr {
         int[] arr = {1,2,3,4,5};
         int[] Reverse = new int[arr.length];
         int i = 0;
-        int j = arr.length - 1; ;
+        int j = arr.length - 1;
 
         while( i < arr.length){
             Reverse[i] = arr[j];
