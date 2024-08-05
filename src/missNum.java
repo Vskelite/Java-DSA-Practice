@@ -1,4 +1,4 @@
-//FInd the missing number in the array
+//Find the missing number in the array
 
 public class missNum {
     public static void main(String[] args){
