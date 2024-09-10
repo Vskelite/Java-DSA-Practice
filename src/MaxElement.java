@@ -9,6 +9,7 @@ public class MaxElement {
         int[] arr = new int[n];
         int i;
         int max = arr[0];
+        sc.close();
         //To accept array input
         System.out.println("Enter elements in the array:");
         for( i = 0; i<arr.length; i++){

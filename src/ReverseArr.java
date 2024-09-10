@@ -13,7 +13,7 @@ public class ReverseArr {
             j--;
         }
         for(int k = 0; k < Reverse.length; k++){
-            System.out.println(Reverse[k] +" ");
+            System.out.print(Reverse[k] +" ");
         }
     }
 }
